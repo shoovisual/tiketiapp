@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'tiketi-apps';
+  src:  url('fonts/tiketi-apps.eot?8ykho1');
+  src:  url('fonts/tiketi-apps.eot?8ykho1#iefix') format('embedded-opentype'),
+    url('fonts/tiketi-apps.ttf?8ykho1') format('truetype'),
+    url('fonts/tiketi-apps.woff?8ykho1') format('woff'),
+    url('fonts/tiketi-apps.svg?8ykho1#tiketi-apps') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+ .awesome {
+  color: red;
+}
+[class^="tkt-"], [class*=" tkt-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tiketi-apps' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tkt-seat:before {
+  content: "\e900";
+}
+.tkt-calendar .path1:before {
+  content: "\e901";
+  color: rgb(0, 0, 0);
+}
+.tkt-calendar .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.tkt-calendar .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.tkt-calendar .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.tkt-clock:before {
+  content: "\e905";
+}
+.tkt-arrive:before {
+  content: "\e906";
+}
+.tkt-bus-to:before {
+  content: "\e907";
+}
+.tkt-bus-front:before {
+  content: "\e908";
+}
+.tkt-date-correct:before {
+  content: "\e909";
+}
+.tkt-date-error:before {
+  content: "\e90a";
+}
+.tkt-seat-belt:before {
+  content: "\e90b";
+}
+.tkt-bus-from:before {
+  content: "\e90c";
+}

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/main.style.css">
+
+    <!-- tether CSS -->
+    <link rel="stylesheet" href="node_modules/tether-2.0.0-beta.2/src/css/tether.scss">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+
+  </head>
+  <body>
+    
+
+    <!-- Navgation bar and top menu bar start -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/tiketApp.png" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarResponsve">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse nav-bar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Check order</a>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#">Login</a>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#">Register</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navgation bar and top menu bar end -->
+
+    <!-- top image container/slider -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1 bg-warning">
+          1
+        </div>
+        <div class="col-lg-1 bg-danger">
+          2
+        </div>
+        <div class="col-lg-1 bg-info">
+          3
+        </div>
+        <div class="col-lg-1 bg-success">
+          4
+        </div>
+      </div>
+    </div>
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner active">
+        <div class="carousel-item">
+          <img src="home-bg.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="home-bg.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="home-bg.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+<!-- Passenger info modal -->
+<div class="bus-seat-selector">
+  <div class="bus-seat-selector-key">
+    <div class="empty seat-key">
+      <img src="svg/bold/seat-empty.svg" alt="">
+      <label for="">Empty</label>
+    </div>
+    <div class="selected seat-key">
+      <img src="svg/bold/seat-selected.svg" alt="">
+      <label for="">Selected</label>
+    </div>
+    <div class="on-hold seat-key">
+      <img src="svg/bold/seat-booked.svg" alt="">
+      <label for="">On hold</label>
+    </div>
+    <div class="booked seat-key">
+      <img src="svg/bold/seat-booked.svg" alt="">
+      <label for="">Booked</label>
+    </div>
+  </div>
+  <div id="passenger-info-close" class="more-bus-info  passenger-info-modal">
+    <div class="over-view-modal">
+      <div class="more-bus-info-left-side">
+        <div class="selected-by-you">
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-booked.svg" alt="">
+          </div>
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-on-hold.svg" alt="">
+          </div>
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-on-hold.svg" alt="">
+          </div>
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-on-hold.svg" alt="">
+          </div>
+        </div>
+        <div class="passenger-info-form">
+          <form action="" class="cool-passenger-form" method="get">
+            <label for="">Jina Kamili</label>
+            <input type="text" name="" id="">
+            <label for="">Namba ya simu</label>
+            <input type="text" name="" id="">
+            <label for="">Unapopandia</label>
+            <input type="text" name="" id="">
+            <label for="">Unaposhuka</label>
+            <input type="text" name="" id="">
+          </form>
+          <div class="cool-passenger-form cargo-header">
+            <label for="">Mizigo mikubwa uliyonayo</label>
+            <p>Uzito zaidi ya 10kg</p>
+          </div>
+          <div class="cargo">
+            <i class="fa fa-minus"></i>
+            <input type="number" class="cargo-count" name="" maxlength="2" id="">
+            <i class="fa fa-plus"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="time-status">
+        <div class="time-icon svg-icon">
+          <i class="fa fa-alarm-clock"></i>
+        </div>
+
+        <div class="time-start-point">
+          <div class="total-statment">
+            <p>Muda wa kuripoti</p>
+          </div>
+          <div class="time-to-arrive">
+            <p>07:00Am</p>
+          </div>
+          <div class="time-to-arrive-to">
+            <p>From kilimanjaro</p>
+          </div>
+        </div>
+
+        <div class="time-destination">
+          <div class="total-statment">
+            <p>Muda wa kuripoti</p>
+          </div>
+          <div class="time-to-start">
+            <p>07:00Am</p>
+          </div>
+          <div class="time-to-arrive-to">
+            <p>From kilimanjaro</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="submit-passenger-form">
+      <div class="button-passenger-submit">
+        <button> <span class="next-seat">Siti inayo fuata</span></button>
+      </div>
+      <div class="button-passenger-prev">
+        <button> <span class="next-seat">Rudi nyuma</span></button>
+      </div>
+    </div>
+    <!-- Time status end -->
+
+  </div>
+  <div id="payment-info-modal-close" class="more-bus-info payment-info-modal">
+    <div class="over-view-modal">
+      <div class="more-bus-info-left-side">
+        <div class="selected-by-you">
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-booked.svg" alt="">
+          </div>
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-booked.svg" alt="">
+          </div>
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-booked.svg" alt="">
+          </div>
+          <div class="selected-by-me">
+            <img src="svg/bold/seat-booked.svg" alt="">
+          </div>
+        </div>
+        <div class="passenger-info-form">
+          <form action="" class="payment-passenger-form" method="get">
+            <input type="radio" name="ttcl" id="">
+            <img src="img/ttcl.jpg" width="100px" alt="">
+            <input type="radio" name="tigo" id="">
+            <img src="img/tigo.jpg" width="100px" alt="">
+            <input type="radio" name="airtel" id="">
+            <img src="img/airtel.jpg" width="100px" alt="">
+            <input type="radio" name="voda" id="">
+            <img src="img/voda.jpg" width="100px" alt="">
+          </form>
+          <br>
+          <div style="font-weight: 400; font-size: 14px; color: #1d3d70; width: 15em">
+            <p>Hakikisha kutunza namba ya kumbukumbu baada ya malipo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="time-status">
+        <div class="total-seat-costs">
+          <div class="seat-cost-icon svg-icon">
+            <img src="svg/cost.svg" alt="" srcset="">
+          </div>
+          <div class="total-statment">Jumla ya gharama</div>
+          <div class="total-cost-tsh">Tsh. <span class="total-cost-amount">140,000</span>
+          </div>
+        </div>
+        <div class="use-cupon">
+          <div class="use-cupon-form">
+            <div class="allow-use-cupon">
+              <input type="checkbox" name="" id="">
+              <p>Tumia Kuponi</p>
+            </div>
+            <input type="number" name="" placeholder="Nambaya kuponi" id="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="submit-passenger-form">
+      <div class="button-passenger-submit">
+        <button> <span class="next-seat">Lipia siti</span></button>
+      </div>
+      <div class="button-passenger-prev">
+        <button> <span class="next-seat">Rudi nyuma</span></button>
+      </div>
+    </div>
+    <!-- Time status end -->
+
+  </div>
+  <!-- more bus info end-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button class="btn btn-primary pull-right" data-target="#bus-modal" data-toggle="modal">Kata Tiketi</button>
+<div class="modal" id="bus-modal" tabindex="-1">
+  <div class="modal-dialog modal-md col-lg-6">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-tittle">Shabiby Express</h3>
+      </div>
+    </div>
+  </div>
+  <div class="modal-dialog modal-lg col-lg-6">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" type="button" data-dismiss="modal">&times;</button>
+        <h4 class="model-tittle pull-left">Login</h4>
+      </div>
+      <div class="modal-body">
+
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-dismiss="modal">Exit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Bus modal end -->
+  <div class="one-bus-modal modal-closer" id="selectBus">
+    <div class="closer">
+      <div class="cross">
+        <i class=""></i>
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </div>
+    <div class="one-bus-view">
+      <div class="bus-seat-modal">
+        <div class="bus-view-header">
+          <div class="bus-header-head">Shabiby Express</div>
+        </div>
+        <div class="two-by-two seat-layout">
+          <div class="left-side-seats">
+            <div class="seat-row">
+              <div class="empty-seat select-me">1</div>
+              <div class="empty-seat">2</div>
+              <div class="empty-seat">3</div>
+              <div class="empty-seat">5</div>
+              <div class="empty-seat">6</div>
+              <div class="empty-seat">7</div>
+              <div class="empty-seat">8</div>
+              <div class="empty-seat">9</div>
+              <div class="empty-seat">10</div>
+              <div class="empty-seat">11</div>
+              <div class="empty-seat">12</div>
+            </div>
+            <div class="seat-row">
+              <div class="empty-seat">1</div>
+              <div class="empty-seat">2</div>
+              <div class="empty-seat">3</div>
+              <div class="empty-seat">5</div>
+              <div class="empty-seat">6</div>
+              <div class="empty-seat">7</div>
+              <div class="empty-seat">8</div>
+              <div class="empty-seat">9</div>
+              <div class="empty-seat">10</div>
+              <div class="empty-seat">11</div>
+              <div class="empty-seat">12</div>
+            </div>
+            <div class="seat-row">
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="nothing-seat"></div>
+              <div class="empty-seat">12</div>
+            </div>
+          </div>
+          <div class="right-side-seats">
+            <div class="seat-row">
+              <div class="empty-seat">1</div>
+              <div class="empty-seat">2</div>
+              <div class="empty-seat">3</div>
+              <div class="empty-seat">5</div>
+              <div class="empty-seat">6</div>
+              <div class="empty-seat">7</div>
+              <div class="empty-seat">8</div>
+              <div class="empty-seat">9</div>
+              <div class="empty-seat">10</div>
+              <div class="empty-seat">11</div>
+              <div class="empty-seat">12</div>
+            </div>
+            <div class="seat-row">
+              <div class="empty-seat">1</div>
+              <div class="empty-seat">2</div>
+              <div class="empty-seat">3</div>
+              <div class="empty-seat">5</div>
+              <div class="empty-seat">6</div>
+              <div class="empty-seat">7</div>
+              <div class="empty-seat">8</div>
+              <div class="empty-seat">9</div>
+              <div class="empty-seat">10</div>
+              <div class="empty-seat">11</div>
+              <div class="empty-seat">12</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bus-seat-selector bus-seat-selector-close">
+        <div class="bus-seat-selector-key">
+          <div class="empty seat-key">
+            <img src="svg/bold/seat-empty.svg" alt="">
+            <label for="">Empty</label>
+          </div>
+          <div class="selected seat-key">
+            <img src="svg/bold/seat-selected.svg" alt="">
+            <label for="">Selected</label>
+          </div>
+          <div class="on-hold seat-key">
+            <img src="svg/bold/seat-on-hold.svg" alt="">
+            <label for="">On hold</label>
+          </div>
+          <div class="booked seat-key">
+            <img src="svg/bold/seat-booked.svg" alt="">
+            <label for="">Booked</label>
+          </div>
+        </div>
+        <div id="more-bus-info" class="more-bus-info">
+          <div class="seat-selected-info">
+            <div class="seat-you-select">
+              <div class="seat-selected-icon">
+                <i class="tkt-seat"></i>
+              </div>
+              <div class="seat-you-select-no">
+                <p>Siti ulizochagua </p>
+                <span class="seat-amaount">3</span>
+              </div>
+            </div>
+            <div class="total-seat-costs">
+              <div class="seat-cost-icon svg-icon">
+                <img src="svg/cost.svg" alt="" srcset="">
+              </div>
+              <div class="total-statment">Jumla ya gharama</div>
+              <div class="total-cost-tsh">Tsh. <span class="total-cost-amount">140,000</span></div>
+            </div>
+          </div>
+          <div class="time-status">
+            <div class="time-icon svg-icon">
+              <i class="fa fa-alarm-clock"></i>
+            </div>
+
+            <div class="time-start-point">
+              <div class="total-statment">
+                <p>Muda wa kuripoti</p>
+              </div>
+              <div class="time-to-arrive">
+                <p>07:00Am</p>
+              </div>
+              <div class="time-to-arrive-to">
+                <p>From kilimanjaro</p>
+              </div>
+            </div>
+
+            <div class="time-destination">
+              <div class="total-statment">
+                <p>Muda wa kuripoti</p>
+              </div>
+              <div class="time-to-start">
+                <p>07:00Am</p>
+              </div>
+              <div class="time-to-arrive-to">
+                <p>From kilimanjaro</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- Time status end -->
+
+        </div>
+        <!-- more bus info-->
+
+        <div class="special-stop-point">
+          <div class="check-point">
+
+          </div>
+        </div>
+        <div class="cont-to-pay">
+          <div class="cont-pay-button next-to-pay change-trip-search ">
+            <button>Lipia Siti <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Passenger info modal -->
+      <div class="bus-seat-selector">
+        <div class="bus-seat-selector-key">
+          <div class="empty seat-key">
+            <img src="svg/bold/seat-empty.svg" alt="">
+            <label for="">Empty</label>
+          </div>
+          <div class="selected seat-key">
+            <img src="svg/bold/seat-selected.svg" alt="">
+            <label for="">Selected</label>
+          </div>
+          <div class="on-hold seat-key">
+            <img src="svg/bold/seat-booked.svg" alt="">
+            <label for="">On hold</label>
+          </div>
+          <div class="booked seat-key">
+            <img src="svg/bold/seat-booked.svg" alt="">
+            <label for="">Booked</label>
+          </div>
+        </div>
+        <div id="passenger-info-close" class="more-bus-info  passenger-info-modal">
+          <div class="over-view-modal">
+            <div class="more-bus-info-left-side">
+              <div class="selected-by-you">
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-booked.svg" alt="">
+                </div>
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-on-hold.svg" alt="">
+                </div>
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-on-hold.svg" alt="">
+                </div>
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-on-hold.svg" alt="">
+                </div>
+              </div>
+              <div class="passenger-info-form">
+                <form action="" class="cool-passenger-form" method="get">
+                  <label for="">Jina Kamili</label>
+                  <input type="text" name="" id="">
+                  <label for="">Namba ya simu</label>
+                  <input type="text" name="" id="">
+                  <label for="">Unapopandia</label>
+                  <input type="text" name="" id="">
+                  <label for="">Unaposhuka</label>
+                  <input type="text" name="" id="">
+                </form>
+                <div class="cool-passenger-form cargo-header">
+                  <label for="">Mizigo mikubwa uliyonayo</label>
+                  <p>Uzito zaidi ya 10kg</p>
+                </div>
+                <div class="cargo">
+                  <i class="fa fa-minus"></i>
+                  <input type="number" class="cargo-count" name="" maxlength="2" id="">
+                  <i class="fa fa-plus"></i>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="time-status">
+              <div class="time-icon svg-icon">
+                <i class="fa fa-alarm-clock"></i>
+              </div>
+
+              <div class="time-start-point">
+                <div class="total-statment">
+                  <p>Muda wa kuripoti</p>
+                </div>
+                <div class="time-to-arrive">
+                  <p>07:00Am</p>
+                </div>
+                <div class="time-to-arrive-to">
+                  <p>From kilimanjaro</p>
+                </div>
+              </div>
+
+              <div class="time-destination">
+                <div class="total-statment">
+                  <p>Muda wa kuripoti</p>
+                </div>
+                <div class="time-to-start">
+                  <p>07:00Am</p>
+                </div>
+                <div class="time-to-arrive-to">
+                  <p>From kilimanjaro</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="submit-passenger-form">
+            <div class="button-passenger-submit">
+              <button> <span class="next-seat">Siti inayo fuata</span></button>
+            </div>
+            <div class="button-passenger-prev">
+              <button> <span class="next-seat">Rudi nyuma</span></button>
+            </div>
+          </div>
+          <!-- Time status end -->
+
+        </div>
+        <div id="payment-info-modal-close" class="more-bus-info payment-info-modal">
+          <div class="over-view-modal">
+            <div class="more-bus-info-left-side">
+              <div class="selected-by-you">
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-booked.svg" alt="">
+                </div>
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-booked.svg" alt="">
+                </div>
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-booked.svg" alt="">
+                </div>
+                <div class="selected-by-me">
+                  <img src="svg/bold/seat-booked.svg" alt="">
+                </div>
+              </div>
+              <div class="passenger-info-form">
+                <form action="" class="payment-passenger-form" method="get">
+                  <input type="radio" name="ttcl" id="">
+                  <img src="img/ttcl.jpg" width="100px" alt="">
+                  <input type="radio" name="tigo" id="">
+                  <img src="img/tigo.jpg" width="100px" alt="">
+                  <input type="radio" name="airtel" id="">
+                  <img src="img/airtel.jpg" width="100px" alt="">
+                  <input type="radio" name="voda" id="">
+                  <img src="img/voda.jpg" width="100px" alt="">
+                </form>
+                <br>
+                <div style="font-weight: 400; font-size: 14px; color: #1d3d70; width: 15em">
+                  <p>Hakikisha kutunza namba ya kumbukumbu baada ya malipo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="time-status">
+              <div class="total-seat-costs">
+                <div class="seat-cost-icon svg-icon">
+                  <img src="svg/cost.svg" alt="" srcset="">
+                </div>
+                <div class="total-statment">Jumla ya gharama</div>
+                <div class="total-cost-tsh">Tsh. <span class="total-cost-amount">140,000</span>
+                </div>
+              </div>
+              <div class="use-cupon">
+                <div class="use-cupon-form">
+                  <div class="allow-use-cupon">
+                    <input type="checkbox" name="" id="">
+                    <p>Tumia Kuponi</p>
+                  </div>
+                  <input type="number" name="" placeholder="Nambaya kuponi" id="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="submit-passenger-form">
+            <div class="button-passenger-submit">
+              <button> <span class="next-seat">Lipia siti</span></button>
+            </div>
+            <div class="button-passenger-prev">
+              <button> <span class="next-seat">Rudi nyuma</span></button>
+            </div>
+          </div>
+          <!-- Time status end -->
+
+        </div>
+        <!-- more bus info end-->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether-2.0.0-beta.2//src/js/tether.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

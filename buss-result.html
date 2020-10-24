@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.main.css">
+    <link rel="stylesheet" href="fonts/style.css">
+
+    <link rel="stylesheet" href="node_modules/jquery/dist/jquery.min.js">
+
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/light.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/light.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/regular.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/regular.min.css">
+
+
+
+
+    <title>Tiketiappᵀᶻ </title>
+</head>
+<body style="background-color: #EAF0F3;">
+    
+    <!-- top contact bar start -->
+    <div class="top-contact-bar container-fluid">
+        <div class="container">
+            <div class="left-sides">
+                <ul class="contact-link">
+                    <li>Call: +255712185393</li>
+                    <li>email: info@tiketapp.co.tz</li>
+                    <li>FAQ<li/>
+                </ul>
+            </div>
+        </div>
+        <div class="right-sides">
+            <!-- <p>lang</p>
+            <select name="languages">
+                <option value="SW" >SW</option>
+                <option value="EN" selected >EN</option>
+            </select> -->
+        </div>
+    </div>
+    <!-- top contact bar ENd -->
+
+    <!-- Navgation bar and top menu bar start -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/tiketApp.png" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarResponsve">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="cllapse nav-bar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#">Login</a>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#">Register</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navgation bar and top menu bar end -->
+
+    <!-- Trip details short start -->
+
+    <div class="trip-details container-fluid">
+        <div class="trip-detail-row row">
+            <div class="trip-left-side col-lg-12">
+                <div class="trip-from">
+                    <p>Dar Es Salaam</p>
+                </div>
+                <div class="arrow-dir">
+                    <img src="img/arrow.svg" alt="" srcset="">
+                </div>
+                <div class="trip-to">
+                    <p>Dodoma</p>
+                </div>
+                <div class="dot-sep">
+                    <img src="img/dot-sep.svg" alt="" srcset="">
+                </div>
+                <div class="trip-date">
+                    <p>February 7 2020</p>
+                </div>
+                <div class="dot-sep">
+                    <img src="img/dot-sep.svg" alt="" srcset="">
+                </div>
+                <div class="trip-class">
+                    <p>Daraja la kawaida</p>
+                </div>
+            </div>
+                <div class="trip-right-side row-col-sm-1">
+                    <div class="change-trip-search btn">
+                        <button>Badili Safari</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- trip details short end -->
+
+    <!-- Sort buses start -->
+    <div class="sort-buses container-fluid">
+        <div class="bus-sorted">
+            <div class="sort-header">
+                <p>Sort by</p>
+            </div>
+            <div class="sort-dash">
+                <div class="sort-dash-line1"></div>
+                <div class="sort-dash-line2"></div>
+                <div class="sort-dash-line3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Sort buses start -->
+
+    <!-- Bus modeal start -->
+    <!-- modal header -->
+    <div class="bus-list-modal show-bus container">
+        <div class="start-journey">
+            <div class="start-content">
+                <i class="far fa-clock"></i>
+                <p>Kuondoka 07:30Am</p>
+            </div>
+        </div>
+        <div class="bus-modal-content row">
+            
+            <div class="bus-modal-header col-md-3">
+                <h3>Shabiby Express</h3>
+                <div class="bus-special-services">
+                    <div class="wifi service-icon">
+                        <i class="fa fa-wifi"></i>
+                    </div>
+                    <div class="tv service-icon">
+                        <i class="fa fa-tv"></i>
+                    </div>
+                    <div class="charger service-icon">
+                        <i class="fa fa-charging-station"></i>
+                    </div>
+                    <div class="toilet service-icon">
+                        <i class="fa fa-toilet"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Time to errive and time to start journey -->
+            <div class="time-for-bus col-lg-4 col-md-3">
+                <div class="time-content">
+                    <div class="time-to-arrive">
+                        <p>07:00</p>
+                    </div>
+                    <div class="time-for">
+                        <p>Muda wa kuondoka</p>
+                    </div>
+                </div>
+                <div class="line-sep">
+                    <i class="fal fa-arrows-h"></i>
+                </div>
+                <div class="time-content">
+                    <div class="time-to-start">
+                        <p>17:00</p>
+                    </div>
+                    <div class="time-for">
+                        <p>Muda wa Kufika</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Time to errive and time to start journey End-->
+    
+            <!-- available seats start -->
+            <div class="available-seats col-md-3">
+                <div class="seats-icons">
+                    <i class="tkt-seat"></i>
+                    <i class="tkt-seat"></i>
+                </div>
+                <div class="available-seat-no">
+                    <p>Zimebaki siti 3</p>
+                </div>
+            </div>
+            <!-- available seats start -->
+    
+            <!-- Bus price -->
+            <div class="bus-trip-price col-md-2">
+                <div class="trip-price">
+                    <p>Tsh. 35,000</p>
+                </div>
+            </div>
+            <!-- Bus price end -->
+        </div>
+        <!-- Select Bus -->
+        <div class="select-this-car">
+            <div class="select-car-button">
+                <button><a href="bus-view.html"> Kata Tiketi</a></button>
+            </div>
+        </div>
+        <!-- Bus select end -->
+    </div>
+    <!-- Bus modal end -->
+
+
+    <!-- Bus modeal start -->
+    <!-- modal header -->
+    <div class="bus-list-modal show-bus container">
+        <div class="start-journey">
+            <div class="start-content">
+                <i class="far fa-clock"></i>
+                <p>Kuondoka 07:30Am</p>
+            </div>
+        </div>
+        <div class="bus-modal-content row">
+
+            <div class="bus-modal-header col-md-3">
+                <h3>Shabiby Express</h3>
+                <div class="bus-special-services">
+                    <div class="wifi service-icon">
+                        <i class="fa fa-wifi"></i>
+                    </div>
+                    <div class="tv service-icon">
+                        <i class="fa fa-tv"></i>
+                    </div>
+                    <div class="charger service-icon">
+                        <i class="fa fa-charging-station"></i>
+                    </div>
+                    <div class="toilet service-icon">
+                        <i class="fa fa-toilet"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Time to errive and time to start journey -->
+            <div class="time-for-bus col-lg-4 col-md-3">
+                <div class="time-content">
+                    <div class="time-to-arrive">
+                        <p>07:00</p>
+                    </div>
+                    <div class="time-for">
+                        <p>Muda wa kuondoka</p>
+                    </div>
+                </div>
+                <div class="line-sep">
+                    <i class="fal fa-arrows-h"></i>
+                </div>
+                <div class="time-content">
+                    <div class="time-to-start">
+                        <p>17:00</p>
+                    </div>
+                    <div class="time-for">
+                        <p>Muda wa Kufika</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Time to errive and time to start journey End-->
+
+            <!-- available seats start -->
+            <div class="available-seats col-md-3">
+                <div class="seats-icons">
+                    <i class="tkt-seat"></i>
+                    <i class="tkt-seat"></i>
+                </div>
+                <div class="available-seat-no">
+                    <p>Zimebaki siti 3</p>
+                </div>
+            </div>
+            <!-- available seats start -->
+
+            <!-- Bus price -->
+            <div class="bus-trip-price col-md-2">
+                <div class="trip-price">
+                    <p>Tsh. 35,000</p>
+                </div>
+            </div>
+            <!-- Bus price end -->
+        </div>
+        <!-- Select Bus -->
+        <div class="select-this-car">
+            <div class="select-car-button">
+                <button><a href="bus-view.html"> Kata Tiketi</a></button>
+            </div>
+        </div>
+        <!-- Bus select end -->
+    </div>
+    <!-- Bus modal end -->
+
+
+    <!-- Bus modeal start -->
+    <!-- modal header -->
+    <div class="bus-list-modal show-bus container">
+        <div class="start-journey">
+            <div class="start-content">
+                <i class="far fa-clock"></i>
+                <p>Kuondoka 07:30Am</p>
+            </div>
+        </div>
+        <div class="bus-modal-content row">
+
+            <div class="bus-modal-header col-md-3">
+                <h3>Shabiby Express</h3>
+                <div class="bus-special-services">
+                    <div class="wifi service-icon">
+                        <i class="fa fa-wifi"></i>
+                    </div>
+                    <div class="tv service-icon">
+                        <i class="fa fa-tv"></i>
+                    </div>
+                    <div class="charger service-icon">
+                        <i class="fa fa-charging-station"></i>
+                    </div>
+                    <div class="toilet service-icon">
+                        <i class="fa fa-toilet"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Time to errive and time to start journey -->
+            <div class="time-for-bus col-lg-4 col-md-3">
+                <div class="time-content">
+                    <div class="time-to-arrive">
+                        <p>07:00</p>
+                    </div>
+                    <div class="time-for">
+                        <p>Muda wa kuondoka</p>
+                    </div>
+                </div>
+                <div class="line-sep">
+                    <i class="fal fa-arrows-h"></i>
+                </div>
+                <div class="time-content">
+                    <div class="time-to-start">
+                        <p>17:00</p>
+                    </div>
+                    <div class="time-for">
+                        <p>Muda wa Kufika</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Time to errive and time to start journey End-->
+
+            <!-- available seats start -->
+            <div class="available-seats col-md-3">
+                <div class="seats-icons">
+                    <i class="tkt-seat"></i>
+                    <i class="tkt-seat"></i>
+                </div>
+                <div class="available-seat-no">
+                    <p>Zimebaki siti 3</p>
+                </div>
+            </div>
+            <!-- available seats start -->
+
+            <!-- Bus price -->
+            <div class="bus-trip-price col-md-2">
+                <div class="trip-price">
+                    <p>Tsh. 35,000</p>
+                </div>
+            </div>
+            <!-- Bus price end -->
+        </div>
+        <!-- Select Bus -->
+        <div class="select-this-car">
+            <div class="select-car-button">
+                <button><a href="bus-view.html"> Kata Tiketi</a></button>
+            </div>
+        </div>
+        <!-- Bus select end -->
+    </div>
+    <!-- Bus modal end -->
+
+
+    <!-- footer -->
+    <div class="footer cotainer">
+        <div class="footer-content row">
+            <div class="logo-footer col-lg-3">
+                <img src="img/tiketApp.png" alt="" srcset="">
+            </div>
+            <div class="footer-innner-content col-lg-3">
+                <p class="footer-header">Contact us</p>
+                <p class="fa fa-phone" style=""> <span style="font-family: informative; font-weight: normal;">+255712185393</span></p><br>
+                <p class="fa fa-envelope"> <span
+                        style="font-family: informative; font-weight: normal;"> info@tiketiapp.co.tz</span></p>
+            </div>
+            <div class="other-product col-lg-3">
+                <div class="footer-header footer-innner-content">
+                    <p>Other products</p>
+                </div>
+                <div class="footer-innner-content">
+                    <ul>
+                        <li> <a href="https://bizytech.com/index.php/logistic-partners/"> Logistics</a> </li>
+                        <li> <a href="https://bizytech.com/index.php/"> Sales Plus</a> </li>
+                        <li> <a href="https://bizytech.com/index.php/"> ePM</a></li>
+                        <li> <a href="https://bizytech.com/index.php/"> KDH</a></li>
+                        <li> <a href="https://bizytech.com/index.php/"> Microbizy</a></li>
+                    </ul>
+                </div>
+            </div>
+             <div class="bizytech col-lg-3">
+                 <div style="color: #1d3d70;" class="footer-header">
+                     <p>Bizytech</span></p>
+                 </div>
+                 <div class="bizy-content">
+                     <p style="color: #1d3d70;">Derm plaza, 13th floor, Bagamoyo road, Beside Tigo HQ.</p>
+                 </div>
+             </div>
+             <div class="copyright">
+        </div>
+            &copy; 2018<script>
+                new Date().getFullYear() >2018 && document.write("-" + new Date().getFullYear());
+            </script>. All rights Reserved. &nbsp; <a href="https://bizytech.com" target="_blank"> Bizytech Ltd</a>
+        </div>
+        
+    </div>
+    
+
+    <!-- Compiled and minified JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <!-- My javaScript -->
+    <!-- <script src="js/mainjs.js"></script> -->
+</body>
+</html>
