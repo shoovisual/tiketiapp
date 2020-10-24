@@ -1,0 +1,27 @@
+* {
+    font-family: 'informative';
+    background: #DFDFDF;
+}
+
+
+.seat-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.seatNo {
+    font-weight: normal;
+    border: 1px solid #aeaeae;
+    border-radius: 2px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    margin: 5px;
+    width: 30px;
+}
+
+.selected-seat {
+    background-color: #1d3d70;
+    color: #fff;
+}

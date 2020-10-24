@@ -1,0 +1,1746 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'informative';
+
+}
+
+
+body {
+    background-color: #EAF0F3;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+html {
+    line-height: 1.15;
+}
+
+.top-contact-bar {
+    display: flex;
+    height: 5vh;
+    background-color: #fff;
+    border-bottom: 1px solid #eaf0f3;
+}
+.top-contact-bar .left-sides {
+    font-weight: 500;
+    float: left;
+    display: flex;
+}
+.left-sides .contact-link {
+    display: flex;
+}
+
+.left-sides {
+    /* left: 5%; */
+    position: relative;
+}
+
+.contact-link li {
+    list-style-type: none;
+    padding: .4em;
+    font-size: 14px
+}
+
+.right-sides select {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    margin-left: .5em;
+}
+
+.right-sides option {
+    background-color: inherit;
+}
+
+.right-sides {
+    position: absolute;
+    display: flex;
+    right: 10%;
+    padding: .5em;
+}
+
+
+.nav-menu {
+    display: flex;
+    padding: 1em;
+    /* height: 8vh; */
+}
+.nav-links {
+    display: flex;
+    right: 10%;
+    position: absolute;
+}
+.nav-links li {
+    list-style-type: none;
+    padding: .8em;
+    font-weight: 600;
+}
+
+.navbar-brand img{
+    height: 1.5em;
+    position: relative;
+    left: 5%;
+}
+
+/* Header slider + trip form */
+
+.header-container {
+    background-image: url("../img/home-bg.svg");
+    background-position: fixed;
+    background-color: #1d3d70;
+    background-size: cover;
+    height: 420px;
+}
+
+.content-header2 {
+    padding-top: 13%;
+}
+
+
+.content-header h2 {
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.content-header p {
+    font-size: 20px;
+}
+
+.content-header {
+    text-align: center;
+    color: #fff;
+    width: 30%;
+    position: absolute;
+}
+
+.part-from-date .part-to-date input {
+    cursor: pointer;
+}
+.content {
+    vertical-align: middle;
+}
+
+.trip-model {
+    /* height: 360px; */
+    margin: auto;
+    /* align-items: center; */
+    box-shadow: 1px 4px 13px rgba(0, 0, 0, 0.150);
+    /* text-align: center; */
+    /* left: 7%; */
+    margin-top: -8em;
+    /* position: absolute; */
+    background-color: #fff;
+    /* width: 87%; */
+    border-radius: .5em;
+    padding: 2em 0;
+}
+
+.continue {
+    margin-top: 2%;
+    height: 1020px;
+    background-color:white;
+}
+.ticket-type {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    /* border-bottom: center;mm: center;: 1px solid #ccc; */
+    padding: 2% 5%;
+}
+
+ .icon span {
+     font-size: 36px;
+     font-weight: 400;
+     color: #fff;
+     background-color: #1d3d70;
+     padding: 10px;
+     border-radius: 50%;
+
+ }
+
+.model-header {
+    display: flex;
+    padding: .9em 2em;
+}
+
+.model-head h2 {
+    margin-left: 15px;
+    color: #34373b;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.form-style {
+    position: relative;
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.form-container {
+    position: relative;
+    border-top: 1px solid #dee2ee;
+    border-bottom: 1px solid #dee2ee;
+    /* height: 100px; */
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.exchange-city {
+    /* display: none; */
+    color: #1d3d70; 
+    position: absolute; 
+    font-size: 1.4em; 
+    z-index: 1; top: 35%; 
+    left: 24%; 
+    cursor: pointer;
+}
+
+.exchange-city:active {
+    transform: rotate(180deg);
+    offset-anchor: 2em;
+    transition: .2s linear;
+}
+
+.form-style .part-component.part-depart {
+    border-right: 1px dashed #dee2ee;
+    margin-bottom: 10px;
+}
+
+.form-style .part-component.part-return {
+    border-right: 1px solid #dee2ee;
+}
+
+.form-style .part-from-date {
+    border-right: 1px solid #dee2ee;
+}
+
+.form-style .part-to-date {
+    border-ri: row;ght: 1px solid #dee2ee;
+}
+
+.form-style .part-passenger {
+    line-height: 1.15;
+    box-sizing: border-box;
+}
+
+/* User area */
+
+.user-area .station-list-area {
+    padding-top: 15%;
+}
+
+.user-area .wrapper-datepicker {
+    padding-top: 15%;
+}
+
+.bus-class {
+    padding-top: 13%;
+}
+
+.form-style .part-component>.content .user-area {
+    /* width: 80%; */
+    position: relative;
+    display: inline-block;
+    
+}
+
+.form-style .part-component>.content .user-area input {
+    border: none;
+    /* background-color: #8a93a720; */
+    border-bottom: 1px solid #dddddd;
+    padding: 5px;
+    width: 95%;
+    font-size: 16px;
+    font-weight: 600;
+    /* vertical-align: middle; */
+    
+}
+
+.form-style .part-component>.content .user-area input:focus {
+    border-bottom: 2px solid #39b54a;
+    /* transition: all .02s ease-in; */
+
+}
+
+.form-style .part-component>.content {
+    
+}
+
+/* Form icons starts*/
+.form-style .part-component .content .icon {
+    /* margin-right: 10px; */
+    font-weight: 800;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #0064d2;
+    display: inline-block;
+}
+
+
+/* form tittle style */
+.form-style .part-component .title {
+    font-weight: 600;
+    margin-bottom: -.8em;
+    font-size: 18px;
+    color: #1D3D70;
+}
+
+.bus-class select {
+    border: none;
+    width: 95%;
+    padding: 3px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.check input {
+    display: inline-block;
+    margin: 3%;
+    border: 1px solid #cdcdcd;
+}
+
+/* Submission Button  */
+.form-button {
+    margin: 1em 0;
+    top: 10%;
+    position: relative;
+}
+.form-button button {
+    /* right: 10%; */
+    float: right;
+    border: none;
+    background-color: #BE1E2D;
+    /* position: absolute; */
+    border-radius: 50px;
+    width: 90px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.form-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.updates-content {
+    /* position: absolute; */
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    /* height: 60vh; */
+    margin-top: 5%;
+}
+
+.updates-header h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d3d70;
+}
+
+.busses {
+    display: flex;
+    margin-top: 2%;
+    /* background-color: rgba(204, 204, 204, 0.123); */
+    border-top: 1px solid #8a93a7;
+    padding: 2%;
+    border-bottom: 1px solid #8a93a7;
+    width: 100%;
+}
+
+.bus-list li {
+    color: #1d3d70;
+    font-weight: 600;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+/* Page 2 - Bus search result */
+
+
+/* Top trip details */
+
+.trip-details {
+    
+}
+
+.trip-left-side {
+    display: flex;
+    margin: 20px auto;
+    color: #a8a8a8;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.trip-from {
+    margin: 0 .5em;
+}
+
+.trip-to .trip-date .trip-class {
+      margin: 0 .5em;
+  }
+
+.arrow-dir {
+    width: 30px;
+    vertical-align: middle;
+    margin: 0 .5em;
+}
+
+.dot-sep {
+    width: 8px;
+    margin: 0 .5em;
+    vertical-align: middle;
+}
+
+.trip-right-side {
+    right: 5%;
+    float: right;
+    position: absolute;
+    /* vertical-align: middle; */
+}
+
+.change-trip-search button {
+    width: 9em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1.5px solid #8a93a7;
+    color: #1d3d70;
+}
+
+
+/* Sort buses */
+.bus-sorted {
+    display: flex;
+    margin: 1em 2.3em;
+}
+
+.bus-sorted div {
+    margin: .3em;
+    text-align: right;
+}
+
+.sort-header p {
+    font-size: 15px;
+    color: #8a8a8a;
+    font-weight: 500;
+}
+.sort-dash div {
+    background-color: #8a93a7;
+    margin: 3px;
+    vertical-align: middle;
+}
+
+.sort-dash-line1 {
+    width: 18px;
+    height: 2px;
+    border-radius: 50px;
+}
+
+.sort-dash-line2 {
+    width: 22px;
+    height: 2px;
+    border-radius: 50px;
+}
+
+.sort-dash-line3 {
+    width: 25px;
+    height: 2px;
+    border-radius: 50px;
+}
+
+
+/* Bus list modals */
+.bus-list-modal {
+    width: 95%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 1em auto;
+    /* margin: 1em; */
+}
+
+.bus-modal-content {
+    padding: 1em 2em;
+    position: relative;
+    border-top: 1px dashed #EAF0F3;
+    border-bottom: 1px dashed #EAF0F3;
+    margin: auto;
+    /* display: flex; */
+}
+
+.start-journey {
+    background-color: #1d3d70;
+    /* border: 1px solid #fff; */
+    width: 25%;
+    color: #fff;
+    position: relative;
+    margin-left: -15px;
+    margin-bottom: 7px;
+    padding: 3px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+
+.start-content i {
+    font-weight: 500;
+    font-size: 16px;
+    vertical-align: middle;
+    margin: 2px 10px;
+}
+
+.start-content {
+    display: flex;
+    padding: 5px;
+}
+
+.start-content p {
+    font-size: 16px;
+    margin: 0px 5px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.bus-modal-header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d3d70;
+}
+
+.bus-special-services {
+    display: flex;
+}
+.service-icon i {
+    margin: 9px;
+    color: #27aae1;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* Time to errive and time to start journey */
+.time-for-bus {
+    display: flex;
+    /* height: 10vh; */
+}
+
+.time-content {
+    /* margin: 0 1em; */
+}
+
+.time-to-arrive {
+    font-size: 28px;
+    font-weight: 600;
+    color: #39b54a;
+}
+
+.time-to-start p{
+    font-size: 28px;
+    font-weight: 600;
+    color: #39b54a;
+}
+
+.time-to-arrive-to p {
+    font-weight: 600;
+    color: #9c9c9c;
+    font-size: 14px;
+}
+
+.time-for p {
+    font-weight: 500;
+    margin-top: -15px;
+    color: #808285;
+    font-size: 18px;
+}
+.line-sep {
+    margin: auto;
+}
+
+.line-sep i {
+    font-size: 40px;
+    font-weight: 100;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/* Available seats */
+.available-seats {
+    /* margin-left: 6em; */
+    text-align: center;
+}
+
+.seats-icons i {
+    font-size: 32px;
+    color: #27aae1;
+    font-weight: 500;
+}
+
+.available-seat-no p {
+    font-weight: 600;
+    color: #808285;
+}
+
+/* Bus trip price */
+.bus-trip-price {
+    /* margin-left: 6em; */
+    text-align: center;
+    margin: auto;
+}
+
+.trip-price {
+    font-size: 28px;
+    font-weight: 600;
+    color: #BE1E2D;
+}
+
+/* Select Bus */
+
+.select-this-car {
+    margin: auto;
+    text-align: right;
+}
+
+.select-car-button {
+    position: relative;
+    /* right: 5%; */
+    vertical-align: middle;
+}
+
+.select-car-button button {
+    width: 9em;
+    margin: 1em;
+    /* right: 5%; */
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1.5px solid #8a93a7;
+    color: #1d3d70;
+}
+button a {
+    color: #1D3D70;
+}
+button a:hover {
+    text-decoration: none;
+}
+
+/* Page 3 - Bus view inside */
+
+/* Seat Arrangement */
+.one-bus-view {
+    border-top: 1px solid #dfdfdf;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F9FA;
+}
+
+
+.booking-process {
+    display: flex;
+    justify-content: space-between;
+}
+.seat-layout {
+    display: flex;
+    padding: 20px;
+}
+
+.bus-view-header {
+    margin: 10% 4%;
+}
+
+.left-side-seats {
+    margin: 3% 0;
+    display: flex;
+}
+
+.left-side-seats div {
+    margin: 0 3px;
+}
+
+.nothing-seat {
+    height: 40px;
+    width: 30px;
+}
+
+.selected-seat {
+    background-image: url(../svg/bold/seat-selected.svg);
+    height: 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    width: 30px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.seat-empty {
+    display: none;
+}
+
+.empty-seat {
+    background-image: url(../svg/bold/seat-empty.svg);
+    height: 40px;
+    background-repeat: no-repeat;
+    text-align: center;
+    cursor: pointer;
+    width: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #a8a8a8;
+    vertical-align: middle;
+}
+
+.right-side-seats {
+    margin: 3% 0;
+    display: flex;
+}
+
+.right-side-seats div {
+    margin: 0 2px;
+}
+
+/* Passenger seat selected */
+.passenger-details {
+    position: relative;
+    border-left: 1px dashed #cdcdcd;
+}
+
+
+.bus-header-head {
+    font-size: 24px;
+    padding: .5em;
+    font-weight: 500;
+    color: #0D47A1;
+}
+
+
+.seat-arrangement .bus-seat-modal {
+    /* margin-right: 5em; */
+}
+
+
+.seat-arrangement {
+    background-color: #fff;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* margin: auto; */
+    border-radius: 5px;
+}
+
+
+.bus-seat-selector {
+    margin: auto;
+}
+
+.bus-seat-selector-key {
+    /* height: 5vh; */
+    border-bottom: 2px solid #d6d6d6;
+    padding: 2% 3%;
+    display: flex;
+}
+
+.bus-seat-selector-key div {
+    margin: 2px 15px;
+}
+
+.seat-key {
+    display: flex;
+}
+
+.seat-key img {
+    width: 3em;
+    padding: .3em;
+}
+
+.seat-key label {
+    font-size: 14px;
+    color: #808285;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.seat-selected-info div {
+     margin: auto 1em;
+    justify-content: space-between;
+}
+
+/* more-bus-info */
+.seat-you-select {
+    text-align: center;
+    /*border: 1px solid #dfdfdf;*/
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.seat-selected-icon i{
+    font-size: 36px;
+    font-weight: 800;
+    color: #0064d2;
+}
+
+.seat-you-select-no p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1D3D70;
+}
+
+
+
+
+
+
+/* Seat amount */
+.total-seat-costs {
+    text-align: center;
+    border-top: 1px solid #dfdfdf;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.seat-amaount {
+    color: #39b54a;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.total-seat-costs div {
+    margin: .3em 0;
+}
+
+.total-statment {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1D3D70;
+}
+
+.total-cost-tsh {
+    color: #7a7a7a;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.total-cost-amount {
+    color: #39b54a;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.svg-icon img {
+    width: 38px;
+}
+
+/* Time info */
+.more-bus-info {
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+
+.time-status {
+
+}
+
+.time-status {
+    text-align: center;
+    border-radius: 7px;
+    /*display: flex;*/
+    padding: 10px;
+    /*border: 1px solid #dfdfdf;*/
+}
+
+.time-icon i {
+    font-size: 32px;
+    font-weight: 400;
+    color: #0064d2;
+}
+
+/* Special bus stop */
+
+.special-stop-point {
+    background-color: #fff;
+    height: 20vh;
+    width: 100%;
+}
+
+
+/* Continue payment button */
+
+.cont-to-pay {
+    right: 10px;
+    /* position: absolute; */
+    margin: 1.3em 1em;
+}
+
+/* Passenger details */
+
+.passenger-info-modal {
+    border-bottom: none;
+    /* display: none; */
+    flex-direction: column;
+}
+
+.selected-by-you div {
+    margin: 0 .6em;
+
+}
+
+.selected-by-me {
+    width: 30px;
+}
+
+.selected-by-you {
+    display: flex;
+    margin-left: 2em;
+}
+
+/* Passenger form*/
+.passenger-info-form {
+    margin: 2em 2em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.cargo {
+    margin-top: .7em;
+}
+
+.cargo-count {
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #eeeeee;
+}
+
+.cargo-header {
+    margin-top: .5em;
+}
+
+.cargo-header p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: .2em;
+    color: #a8a8a8;
+}
+
+.cargo i {
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    color: #0D47A1;
+    padding: 3px;
+    border-radius: 30px;
+    border: 1.5px solid #dfdfdf;
+}
+
+/* Replace Next seat */
+.pay-seat {
+    content: "Lipia siti";
+}
+
+
+/* Passenger buttons */
+.submit-passenger-form {
+    margin-bottom: 3em;
+}
+/* Siti inayofuata */
+.button-passenger-submit {
+    margin-top: -1.2em;
+    
+    right: 4em;
+    position: absolute;
+}
+
+.button-passenger-submit button{
+    padding: 6px 15px;
+    background-color: ;
+    cursor: pointer;
+    border: 1px solid #939598;
+    border-radius: 3px;
+    color: #1d3d70;
+    font-weight: 600;
+}
+.button-passenger-prev {
+    margin-top: -1.2em;
+    margin-left: 3em;
+}
+.button-passenger-prev button {
+    padding: 6px 15px;
+    background-color: ;
+    cursor: pointer;
+    border: 1px solid #939598;
+    border-radius: 3px;
+    color: #1d3d70;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+/* Payment info and methods */
+.payment-info-modal {
+    border-bottom: none;
+    flex-direction: column;
+}
+.payment-passenger-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-passenger-form input {
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    padding: 6px;
+    width: 20em;
+    margin: .5em 0;
+}
+
+/* page 4 */
+.payment-process {
+    padding: ;
+}
+.one-bus-details {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F9FA;
+}
+.trip-full-info-header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.trip-full-info {
+    /* background-color: #fff; */
+    padding: 2em;
+    /* justify-content: space-between; */
+    /* border: 1px solid #dcdcdc; */
+}
+
+.trip-full-info-header-body h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1d3d70;
+}
+
+.selected-seat-info-header {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.selected-seat-info {
+    float: right;
+    text-align: right;
+}
+
+.selected-seat-info-body {
+    margin-top: -1em;
+    float: left;
+}
+
+.traveller-details {
+    background-color: #fff;
+    padding: 2em;
+    /* justify-content: space-between; */
+    border: 1px solid #dcdcdc;
+}
+
+.bus-time-info {
+    display: flex;
+    justify-content: space-between;
+}
+.time h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.travel-date {
+    font-weight: 600;
+    color: #808080;
+}
+
+.special-stops {
+    display: flex;
+    flex-direction: row;
+}
+
+.continue-payment-modal {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    /* border-radius: 7px; */
+    background-color: #fff;
+}
+
+.cont-payment-header button {
+    border: 1px solid #0064d2;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    /* border-radius: 7px; */
+    background-color: #1d3d70;
+    color: #fff;
+}
+
+.cont-payment-body {
+    
+    padding: 5px;
+}
+
+.cont-payment-header {
+    text-align: center;
+}
+.total-cost span {
+    font-weight: 600;
+    color: #39b54a;
+    font-size: 16px;
+}
+.total-cost p {
+    font-weight: 500;
+    color: #1D3D70;
+    font-size: 18px;
+}
+
+.total-cost {
+    display: flex;
+    border-bottom: 1px dashed #dcdcdc;
+}
+
+.passenger-form {
+    display: flex;
+    padding: 2em;
+    box-shadow: 2px 2px 3px #a7a7a717;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 3em auto;
+    padding: 2em;
+    /*height: 30vh;*/
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+
+.login-form input::placeholder {
+    font-size: 18px;
+    padding-left: 10px;
+    color: #888;
+}
+
+.login-form p {
+    text-align: center;
+    font-weight: 600;
+    color: #1d3d70;
+}
+
+.login-header {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.login-form input[type="tel"] {
+    background-image: url("../svg/phone.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.login-form input[type="password"] {
+    background-image: url("../svg/lock.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.login-form input[name="first name"] {
+    background-image: url("../svg/name.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.login-form input[name="secondName"] {
+    background-image: url("../svg/name.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.login-form input[name="userEmail"] {
+    background-image: url("../svg/mail.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.reg-form button {
+    border: 1px solid #DFDFDF;
+    padding: .5em 5em;
+    font-weight: 500;
+    margin: auto;
+}
+
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.login-form input {
+    border: 5px;
+    padding: 5px 2px;
+    width: 50%;
+    margin: 1.5em auto;
+    border-bottom: 1px solid #dcdcdc;
+}
+.passenger-form input {
+    border: 5px;
+    padding: 2px;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+
+.passenger-form input:focus {
+    border: 5px;
+    padding: 2px;
+    border-bottom: 1px solid #39b54a
+}
+
+.passenger-form div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 1.5em;
+}
+
+/* Offer redeem */
+.extra-details {
+    margin-top: 1em;
+}
+
+.extra-details-header h3 {
+    font-size: 26px;
+    padding: .4em;
+    font-weight: 600;
+}
+
+.extra-details-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 3.1px;
+    border: 1px solid rgba(245,166,35,.2);
+    background-color:#fff5ea;
+    padding: .5em .6em;
+}
+
+.icon-form i {
+    font-size: 24px;
+    background-color: #FDE6C4;
+    padding: .4em;
+    margin: auto .6em;
+    border-radius: 50px;
+    color: #FFB200;
+}
+
+.extra-details-form {
+    display: flex;
+    align-items: center;
+}
+
+.text-form {
+    align-items: center;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1d3d70;
+    font-weight: 500;
+}
+
+.get-started-btn {
+    border: none;
+    /* display: flex; */
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #BE1E2D;
+}
+
+.get-started-btn a i {
+    /* display: none; */
+    font-weight: 600;
+}
+
+.get-started-btn:hover i {
+    display: inline ;
+    /* font-size: 28px; */
+}
+
+.cupon-details-body {
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 3.1px;
+    border: 1px solid rgba(245,166,35,.2);
+    background-color:#ffffff;
+    padding: 1em;
+}
+
+.icon-cupon i {
+    font-size: 28px;
+    padding: .4em;
+    margin: auto .6em;
+    font-weight: 700;
+    border-radius: 50px;
+    color: #1D3D70;
+    transform: rotate(35deg);
+}
+
+.cupon-details-form {
+    display: flex;
+    align-items: center;
+}
+
+.cupon-collection-type > div {
+    margin: 2em 1em;
+}
+
+.cupon-type input {
+    margin: .3em;
+    padding: .5em;
+    border-radius: 5px;
+    border: 1.5px dashed #cdcdcd;
+}
+
+.cupon-type input::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    color: #787878;
+}
+
+.cupon-type span {
+    font-weight: 500;
+    font-size: 15px;
+    color: #8a93a7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Foooter */
+
+
+
+.footer-innner-content {
+    color: #1d3d70;
+}
+
+.footer-innner-content ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.footer-innner-content ul li a {
+    text-decoration: none;
+    color: #1D3D70;
+}
+
+.copyright a {
+    padding: 3px 7px;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+    color: #800;
+    padding: 3px 7px;
+}
+
+
+.footer-innner-content span {
+    margin-left: .6em;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: 500;
+    color: #6e6e6e;
+}
+
+.footer {
+    /* clear: both; */
+    /* border-top: 2px solid #b8b8b8; */
+    padding: 2em;
+    background-color: #ffffff;
+    margin-top: 3em;
+    border-top: 1px solid #eaf0f3;
+}
+
+.bizy-content {
+    width: 55%;
+}
+
+.footer-header {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.footer-content-cool {
+    display: flex;
+    margin: 2em 6em;
+}
+
+.logo-footer img {
+    width: 15em;
+    opacity: 0.8;
+    filter: grayscale(opacity=50);
+    cursor: pointer;
+}
+
+.logo-footer img:hover {
+    opacity: 1;
+    filter: grayscale(opacity=100);
+}
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+    .nav-bar-collapse {
+        display: none
+    }
+
+    .header-container {
+        background-image: url("../img/home-bg-mobile.svg");
+        background-position: fixed;
+        background-color: #1d3d70;
+        background-size: cover;
+        height: 320px;
+    }
+
+    .content-header2 {
+        padding-top: 13%;
+    }
+
+
+    .content-header h2 {
+        padding-bottom: 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+
+    .content-header p {
+        font-size: 1em;
+    }
+
+    .content-header {
+        text-align: center;
+        color: #fff;
+        width: 80%;
+    }
+
+    .content-header {
+        margin: auto;
+    }
+
+    .form-container {
+        border: ;
+    }
+    
+    /* exchanges */
+
+    .exchange-city {
+        /* display: none; */
+        color: #1d3d70;
+        position: absolute;
+        font-size: 1.4em;
+        z-index: 1;
+        top: 35%;
+        left: 24%;
+        cursor: pointer;
+        transform: rotate(90deg);
+    }
+
+    .exchange-city:active {
+        transform: rotate(180deg);
+        transition: .2s ease-in-out;
+    }
+
+    /* Page 2 */
+
+    .passenger-details {
+    position: relative;
+    /* border-top: 1px dashed #cdcdcd; */
+    border: 1px dashed #cdcdcd;
+}
+
+    .form-style .part-component.part-depart {
+        border: none;
+    }
+
+    .form-style .part-component.part-return {
+        border: none;
+    }
+
+    .form-style .part-from-date {
+        border: none;
+    }
+
+    .form-style .part-to-date {
+        border: none;
+    }
+
+    .user-area .station-list-area {
+        padding-top: 10%;
+    }
+
+    .user-area .wrapper-datepicker {
+        padding-top: 10%;
+    }
+
+    .bus-class {
+        padding-top: 6%;
+    }
+
+    .form-container {
+        padding: 2em 0;
+    }
+
+    .part-component {
+        padding: 5px 0;
+    }
+
+    .form-style .part-component>.content .user-area input {
+        border: none;
+        /* background-color: #8a93a720; */
+        border-bottom: 1px solid #dddddd;
+        padding: 5px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        /* vertical-align: middle; */
+
+    }
+
+
+
+    .trip-model {
+        margin: auto;
+        box-shadow: none;
+        /* margin-top: -7em; */
+        background-color: #fff;
+        border-radius: 0;
+        padding: .5em 0;
+    }
+
+
+
+
+    /* Page 2 */
+    .trip-right-side {
+        position: relative;
+        top: -1em;
+        margin: auto;
+        /* vertical-align: middle; */
+    }
+
+    .seat-arrangement {
+    background-color: #fff;
+    /* position: relative; */
+    /* justify-content: space-between; */
+    display: block;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 5px;
+}
+
+    .available-seats {
+        margin-left: 6em;
+        text-align: center;
+    }
+
+    .select-this-car {
+        margin: auto;
+        text-align: center;
+    }
+
+    .change-trip-search button {
+        width: 10em;
+        font-weight: 400;
+        font-size: 13px;
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 5px;
+        border: 1.5px solid #8a93a7;
+        color: #1d3d70;
+    }
+    .time-for-bus {
+        margin-top: 20px;
+    }
+
+    .time-for {
+        margin-top: -1em;
+        line-height: 14px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* Bus list modals */
+    .bus-list-modal {
+        width: 95%;
+        background-color: #f8f8f8;
+        border-radius: 0px;
+        margin: 1em auto;
+        /* margin: 1em; */
+    }
+
+    
+    .bus-seat-modal {
+        background-color: #fff;
+        position: relative;
+        margin: auto;
+    }
+
+    .start-journey {
+        width: 10em;
+        color: #fff;
+        position: relative;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .one-bus-details {
+    padding: 2em;
+    display: block;
+    justify-content: space-between;
+    background-color: #F8F9FA;
+    }
+
+    .passenger-form {
+        display: block;
+        padding: 2em;
+        box-shadow: 2px 2px 3px #a7a7a717;
+        border-radius: 5px;
+        border: 1px solid #dedede;
+    }
+    .passenger-form input {
+        padding: 2px;
+        margin: 1em;
+        width: 90%;
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+    .extra-details-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: column;
+    border-radius: 3.1px;
+    border: 1px solid rgba(245,166,35,.2);
+    background-color:#fff5ea;
+    padding: .5em .6em;
+    }
+
+    .get-started-btn {
+    border: 1px solid #dcdcdc;
+    /* display: flex; */
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #BE1E2D;
+    }
+
+    .get-started-btn {
+        text-transform: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 3px;
+        width: 50%;
+        color: #fff;
+        text-align: center;
+        border-radius: 5.6px;
+        background-color: #1D3D70;
+        margin: .5em auto auto auto;
+        /* margin-top: 1em; */
+    }
+
+    .login-form input {
+        border: 5px;
+        padding: 2px;
+        width: 85%;
+        margin: 1.5em auto;
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* Foooter */
+    .logo-footer img {
+    width: 8em;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-bottom: 2em;
+    }
+
+
+}
+
+
+
+
+
+
